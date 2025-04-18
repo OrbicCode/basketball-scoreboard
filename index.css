@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #BAE6FD;
+    height: 100vh;
+}
+
+
+/* =================
+      Typography
+   ================= */
+
+h3, p {
+    margin: 0;
+}
+
+.header {
+    color: #fff;
+    font-size: 2.75rem;
+    margin-bottom: 0.3em;
+}
+
+.score {
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    color: #F94F6D;
+    font-size: 5rem;
+    margin: 0;
+}
+
+/* buttons */
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    cursor: pointer;
+}
+
+.reset {
+    margin-top: 2em;
+    width: 150px;
+    height: 50px;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* =================
+        Layout
+   ================= */
+
+.container {
+    padding: 4em 2em;
+    width: 90%;
+    min-width: 550px;
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    background: #1B244A;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+}
+
+.score-background {
+    width: 160px;
+    height: 120px;
+    padding: 10px;
+    background: black;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+}
+
